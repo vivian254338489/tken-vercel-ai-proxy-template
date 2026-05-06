@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/health", "dest": "/api/health.mjs" },
+    { "src": "/v1/models", "dest": "/api/models.mjs" },
+    { "src": "/v1/chat/completions", "dest": "/api/chat-completions.mjs" }
+  ]
+}
